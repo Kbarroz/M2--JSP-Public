@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+Problema/Necessidade: Crud de Filmes
+Data: 20/11/2023
+Autor: 
+Projeto: Controle de Filme
+-->
+<html>
+    <head>
+        <title>Cadastrar Filmes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Cadastre um Filme</h1>
+        <form name="frmCliCad" method="post" action="cadastrar.jsp"> 
+            TITULO <input type="text" name="titulo"> <p>
+            GENERO <input type="text" name="genero"> <p>
+            DIIRETOR <input type="text" name="diretor"> <p>
+            ANO DE LANÇAMENTO <input type="number" name="ano"> <p>
+            ATOR(A) 1 <input type="text" name="ator1"> <p>
+            ATOR(A) 2 <input type="text" name="ator2"> <p>
+            <input type="reset" name="limpa" value="LIMPAR"> 
+            <input type="submit" name="envia" value="SALVAR"> 
+        </form>
+    </body>
+</html>
