@@ -6,7 +6,7 @@ package model;
 
 /**
  *
- * @author pedro
+ * @author Kaique
  */
 public class Filme {
     private int id;
